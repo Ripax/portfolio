@@ -61,17 +61,21 @@
 <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://ripax.github.io/portfolio"> a n u p a m </a>
+            <a class="navbar-logo" href="https://ripax.github.io/portfolio"> a n u p a m </a>
             <style>
-                .navbar-brand {
+                .navbar-logo {
                     color: #caccce;
+                    @font-face {
+                   font-family: myFirstFont;
+                   src: url(sansation_light.woff);
                 }
-                .navbar-brand {
+                }
+                .navbar-logo {
                     color: #fff;
                     text-align: center;
-                    animation: navbar-brand 2s ease-in-out infinite alternate;
+                    animation: navbar-logo 2s ease-in-out infinite alternate;
                 }
-                @-webkit-keyframes navbar-brand {
+                @-webkit-keyframes navbar-logo {
                     from {
                         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00e63a, 0 0 20px #05850f;
                     }
